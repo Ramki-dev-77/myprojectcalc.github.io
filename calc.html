@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calc.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <h1>Project Calculator</h1>
+    <div id="container">
+        <input id="display">
+        <div id="btn-holder">
+        <button class="cal-btn" id="plus" onclick="working('+')">+</button>
+        <button class="cal-btn" onclick="working('7')">7</button>
+        <button class="cal-btn" onclick="working('8')">8</button>
+        <button class="cal-btn" onclick="working('9')">9</button>
+        <button class="cal-btn" id="minus" onclick="working('-')">-</button>
+        <button class="cal-btn" onclick="working('4')">4</button>
+        <button class="cal-btn" onclick="working('5')">5</button>
+        <button class="cal-btn" onclick="working('6')">6</button>
+        <button class="cal-btn" id="mul" onclick="working('*')">*</button>
+        <button class="cal-btn" onclick="working('1')">1</button>
+        <button class="cal-btn" onclick="working('2')">2</button>
+        <button class="cal-btn" onclick="working('3')">3</button>
+        <button class="cal-btn" id="divide" onclick="working('/')">/</button>
+        <button class="cal-btn" onclick="working('0')">0</button>
+        <button class="cal-btn" id="dot" onclick="working('.')">.</button>
+        <button class="cal-btn" id="equal" onclick="operateDisplay()">=</button>
+        <button class="cal-btn" id="clear" onclick="clearDisplay()">C</button>
+    </div>
+</div>
+    <script src="calc.js"></script>
+</body>
+</html>
